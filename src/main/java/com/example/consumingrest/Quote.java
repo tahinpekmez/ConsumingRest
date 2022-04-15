@@ -9,7 +9,8 @@ public class Quote {
     private String type;
     private Value value;
 
-    public Quote() {}
+    public Quote() {
+    }
 
     public String getType() {
         return type;
@@ -34,7 +35,6 @@ public class Quote {
                 ", value=" + value +
                 '}';
     }
-
 
 
 }
